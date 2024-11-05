@@ -6,7 +6,7 @@ const RoomCategories = () => {
     {
       id: 1,
       title: 'Dining',
-      image: '/bedr.png',
+      image: '/dinr.png',
     },
     {
       id: 2,
@@ -43,7 +43,7 @@ const RoomCategories = () => {
                 className="w-full h-[400px] md:h-[450px] lg:h-[500px] object-cover transition-transform duration-300 group-hover:scale-105"
               />
             </div>
-            <h3 className="text-xl text-center font-medium text-gray-800">
+            <h3 className="text-xl text-center font-semibold text-gray-800">
               {category.title}
             </h3>
           </div>
