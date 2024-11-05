@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className="w-full bg-white  ">
     
-      <nav className="px-4 md:px-12 flex items-center justify-between -ml-[80px] -mr-[80px]">
+      <nav className="px-4 md:px-12 flex items-center justify-between -ml-[100px] -mr-[80px]">
         <div className="flex items-center mb-5">
           <div className="text-[34px] font-[700] h-[41px] w-[185px] flex items-center">
             <span className="text-amber-500">
@@ -17,7 +17,7 @@ const Navbar = () => {
         </div>
 
         
-        <div className="hidden md:flex items-center space-x-8 mb-5">
+        <div className="hidden md:flex items-center space-x-16 mb-5">
           <a href="#" className="hover:text-amber-500 md:text-[16px] font-[500]">
             Home
           </a>
@@ -32,7 +32,7 @@ const Navbar = () => {
           </a>
         </div>
 
-        <div className="flex items-center space-x-6 mb-5">
+        <div className="flex items-center space-x-12 mb-5">
      
           <svg
             width="24"
