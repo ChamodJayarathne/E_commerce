@@ -24,7 +24,7 @@ const RoomCategories = () => {
     <div className="container mx-auto px-4 py-16">
       {/* Header Section */}
       <div className="text-center mb-12">
-        <h2 className="text-3xl font-semibold text-gray-800 mb-2">
+        <h2 className="text-3xl font-bold text-gray-800 mb-2">
           Browse The Range
         </h2>
         <p className="text-gray-600">
@@ -40,7 +40,7 @@ const RoomCategories = () => {
               <img
                 src={category.image}
                 alt={category.title}
-                className="w-full h-[300px] object-cover transition-transform duration-300 group-hover:scale-105"
+                className="w-full h-[400px] md:h-[450px] lg:h-[500px] object-cover transition-transform duration-300 group-hover:scale-105"
               />
             </div>
             <h3 className="text-xl text-center font-medium text-gray-800">
